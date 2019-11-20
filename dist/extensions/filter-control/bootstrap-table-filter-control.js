@@ -2392,12 +2392,12 @@
 	    }
 	  }, {
 	    key: "resetSearch",
-	    value: function resetSearch() {
+	    value: function resetSearch(text) {
 	      if (this.options.filterControl && this.options.showSearchClearButton) {
 	        this.clearFilterControl();
 	      }
 
-	      _get(_getPrototypeOf(_class.prototype), "resetSearch", this).call(this);
+	      _get(_getPrototypeOf(_class.prototype), "resetSearch", this).call(this, text);
 	    }
 	  }, {
 	    key: "clearFilterControl",
